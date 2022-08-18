@@ -5,8 +5,8 @@ function start () {
     var inputWeight = document.querySelector('#input-weight');
     var inputHeight = document.querySelector('#input-height');
 
-    inputWeight.addEventListener('input', handleButtonClick);
-    inputHeight.addEventListener('input', handleButtonClick);
+    inputWeight.addEventListener('click', handleButtonClick);
+    inputHeight.addEventListener('click', handleButtonClick);
 }
 
 function calculateIMC (weight, height){
